@@ -1,0 +1,11 @@
+version={0,0,1}
+function remote_supported_control_surfaces()
+	local surfaces =		{
+			{ manufacturer="Sonic Detours", model="Launchpad Mini",
+				source="Launchpad Mini.lua",
+				in_ports = { {description="In Port"} },
+				out_ports = { {description="Out Port"} },
+				has_keyboard=false
+			},		}
+	return surfaces
+end
